@@ -39,6 +39,7 @@
   width: 730px;
   font-size: 102px;
   z-index: 3;
+  color: #000000;
 }
 
 .header__subtitle {
@@ -50,6 +51,7 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 3;
+  color: #000000;
 }
 
 .header__link {
@@ -113,6 +115,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  color: #000000;
 }
 
 .two-columns__paragraph_with-span {
@@ -126,6 +129,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+  color: #000000;
 }
 
 .digits {
@@ -135,6 +139,7 @@
   align-items: center;
   border: solid 1px red;
   padding: 100px 0;
+  color: #000000;
 }
 
 .section-title {
@@ -179,6 +184,7 @@
 
 .table__heading {
   margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -186,6 +192,7 @@
 
 .table__text {
   margin: 0;
+  padding: 0;
   padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
@@ -209,6 +216,7 @@
   font-size: 120px;
   font-weight: bold;
   text-align: center;
+  color: #000000;
 }
 
 .feynman__subtitle {
@@ -217,6 +225,7 @@
   font-weight: normal;
   margin: 70px auto 0;
   z-index: 3;
+  color: #000000;
 }
 
 .feynman__link {
