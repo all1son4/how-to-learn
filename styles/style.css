@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -18,7 +14,6 @@
   min-height: 600px;
   max-height: 756px;
   background-color:  #f2f2f2;
-  /* выше установили ограничения для секции */
 }
 
 .logo {
@@ -34,6 +29,8 @@
 }
 
 .header__title {
+  margin: 0;
+  padding: 0;
   margin-left: 64px;
   line-height: 96px;
   width: 730px;
@@ -43,6 +40,8 @@
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -67,7 +66,6 @@
   width: 765px;
   z-index: 2;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
 .header__square-pic {
   height: 568px;
@@ -85,7 +83,6 @@
 .description {
   display: flex;
   justify-content: center;
-  border: solid 1px red;
   padding-top: 100px;
 }
 
@@ -97,6 +94,7 @@
 
 .two-columns__brief {
   margin: 0;
+  padding: 0;
   text-decoration: none;
   width: 175px;
   line-height: 1.2;
@@ -112,6 +110,7 @@
 
 .two-columns__paragraph {
   margin: 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -137,18 +136,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 1px red;
   padding: 100px 0;
   color: #000000;
 }
 
 .section-title {
   margin: 0;
+  padding: 0;
   text-align: center;
   width: 60%;
   line-height: 1.15;
   margin-bottom: 20px;
-  border: solid 1px red;
   font-size: 60px;
   font-weight: bold;
 }
@@ -156,8 +154,8 @@
 .section-subtitle {
   text-align: center;
   margin: 0;
+  padding: 0;
   width: 60%;
-  border: solid 1px red;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -171,12 +169,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  border: solid 1px red;
   width: 1100px;
 }
 
 .table__cell {
-  border: solid .8px red;
   width: 250px;
   list-style: none;
   margin-top: 60px;
@@ -204,11 +200,12 @@
   flex-direction: column;
   min-height: 890px;
   position: relative;
-  border: solid 1px red;
   background-color:#f2f2f2;
 }
 
 .feynman__title {
+  margin: 0;
+  padding: 0;
   width: 648px;
   margin: 100px auto 0;
   z-index: 3;
@@ -220,6 +217,8 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
+  padding: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -254,7 +253,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 1px red;
   padding: 90px 0;
   background: #1f1f1f;
   overflow: hidden;
@@ -274,7 +272,6 @@
   z-index: 1;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -295,7 +292,6 @@
 .footer {
   display: flex;
   justify-content: center;
-  border: solid 1px red;
   padding: 60px 0 40px;
   background: #1f1f1f;
   min-height: 350px;
@@ -308,7 +304,6 @@
   justify-content: space-between;
   align-items: stretch;
   width: 90%;
-  border: solid 1px red;
 }
 
 .footer__column_content_copyright {
@@ -330,6 +325,7 @@
   margin: 0;
   padding: 18px 0;
   color: #f2f2f2;
+  width: 200px;
 }
 
 .footer__column_info {
@@ -338,6 +334,8 @@
 }
 
 .footer__column-heading {
+  margin: 0;
+  padding: 0;
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
