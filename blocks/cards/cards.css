@@ -1,10 +1,17 @@
 .cards {
   margin: 0;
   padding: 0;
-  border: solid 1px red;
   width: 920px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
+  justify-content: space-between;
+}
+
+.cards::after {
+  width: 240px;
+  list-style: none;
+  margin-top: 60px;
+  content: ""
 }
