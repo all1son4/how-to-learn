@@ -6,12 +6,5 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
-  justify-content: space-between;
-}
-
-.cards::after {
-  width: 240px;
-  list-style: none;
-  margin-top: 60px;
-  content: "";
+  justify-content: flex-start;
 }
