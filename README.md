@@ -1,29 +1,24 @@
-## Название проекта
+## Project name
 
-How to learn (научиться учиться)
+How to learn
 
-[Проект доступен по ссылке](http://howtolearn.surge.sh)
+[The project is available here](http://howtolearn.surge.sh)
 
 ## Функционал
 
-Обычный одностраничный лендинг с внутренней навигацией по странице и переходами по ссылкам на внешние ресурсы.
+One-page landing with internal page navigation and links to external resources.
 
 ## Стек
 
-+ Структура БЭМ (Nested)
-+ Использованы все прелести Flexbox
-+ Семантические тэги HTML5
++ BEM structure (Nested)
++ Used all the charms of Flexbox
++ Semantics tegs HTML5
 + Keyframes CSS3
 
 ## Развертывание
 
-Имеется главная страница index.html и все стиили, импортированные в index.css. Для развертывания проекта не требуется установки библиотек.
+index.html is the main page and all styles are imported into index.css. No libraries need to be installed to deploy the project.
 
 ## Можно доработать
 
-+ Реализовать адаптивную верстку
-
-
-
-
-
++ Realize adaptive layout
